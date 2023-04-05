@@ -1,15 +1,13 @@
-# Technical Proposal
+Technical Proposal
 
-## Title: Designing and Implementing a Web-Based Personal Finance Management and Credit Card Recommendation System
+Title
+Designing and Implementing a Web-Based Personal Finance Management and Credit Card Recommendation System
 
-### Overview
+Overview
+The goal of this technical project is to design and implement a web-based personal finance management system. The system will allow users to track their expenses, create budgets, and analyze their financial data using graphs and charts. Additionally, it will provide credit card recommendations based on users’ habits. The system will also offer personalized recommendations based on the user's financial data to help them improve their financial health.
 
-The goal of this technical project is to design and implement a web-based personal finance management system. The system will allow users to track their expenses, create budgets, and analyze their financial data using graphs and charts, as well as provide credit card recommendations based on users’ habits. The system will also provide personalized recommendations based on the user's financial data to help them improve their financial health.
+Importance
+Personal finance management is a critical skill that everyone should have. However, many people struggle to manage their finances effectively, leading to financial stress and hardship. A web-based personal finance management system can be a valuable tool for individuals to manage their finances effectively and improve their financial health. By maximizing credit card offers, users can achieve their financial goals more easily.
 
-### Importance
-
-Personal finance management is a critical skill that everyone should have. However, many people struggle to manage their finances effectively, leading to financial stress and hardship. Therefore, a web-based personal finance management system can be a valuable tool for individuals to manage their finances effectively and improve their financial health whilst maximizing credit card offers to achieve goals.
-
-### Adequate Capstone Topic
-
-This project is an adequate capstone topic because it involves the design and implementation of a complex web-based system that requires a thorough understanding of web development technologies and best practices. The project also involves database design and management, data analysis, and visualization. This project will demonstrate my proficiency in web development, database design, and data analysis, and will highlight my ability to apply these skills to create a real-world application.
+Adequate Capstone Topic
+This project is an adequate capstone topic because it involves the design and implementation of a complex web-based system. This requires a thorough understanding of web development technologies and best practices. The project also involves database design and management, data analysis, and visualization. By completing this project, I will demonstrate my proficiency in web development, database design, and data analysis. It will also highlight my ability to apply these skills to create a real-world application.
