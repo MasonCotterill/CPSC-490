@@ -4,7 +4,7 @@ CREATE TABLE Users (
     firstName VARCHAR(50),
     lastName VARCHAR(50),
     email VARCHAR(100) UNIQUE,
-    passwordHash VARCHAR(255), -- Storing hashed password for security
+    passwordHash VARCHAR(255),
     dateJoined TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -13,7 +13,7 @@ CREATE TABLE Transactions (
     transactionID INT AUTO_INCREMENT PRIMARY KEY,
     userID INT,
     description VARCHAR(255),
-    amount DECIMAL(10, 2), -- Consider appropriate precision and scale for your currency
+    amount DECIMAL(10, 2),
     transactionDate DATE,
     category VARCHAR(50),
     FOREIGN KEY (userID) REFERENCES Users(userID)
@@ -31,7 +31,7 @@ CREATE TABLE Budgets (
     FOREIGN KEY (userID) REFERENCES Users(userID)
 );
 
--- BudgetTransactionRelation Table (To link budgets with transactions)
+-- BudgetTransactionRelation Table
 CREATE TABLE BudgetTransactionRelation (
     budgetID INT,
     transactionID INT,
