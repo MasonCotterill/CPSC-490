@@ -1,7 +1,7 @@
 import React from 'react';
 import MyAreaChart from './MyAreaChart';
 import MyPieChart from './MyPieChart'; 
-const Hero = () => {
+const Dashboard = () => {
   return (
     <div className='flex flex-row justify-center items-stretch pt-10 h-[calc(100vh-10vh)]'>
       <div className='w-1/2 p-4 border border-gray-900 shadow-lg flex flex-col'>
@@ -20,5 +20,5 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Dashboard;
 
