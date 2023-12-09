@@ -1,0 +1,214 @@
+{
+    "CreditCards": [
+      {
+        "CardName": "Chase Sapphire Preferred",
+        "Rewards": {
+          "Travel": "5x points on travel through Chase Ultimate Rewards",
+          "Dining": "3x points on dining",
+          "OnlineGroceries": "3x points on online groceries",
+          "StreamingServices": "3x points on select streaming services",
+          "OtherPurchases": "1x points on other purchases"
+        },
+        "Features": {
+          "AnnualHotelCredit": "$50",
+          "AnniversaryPointBonus": "10%",
+          "TravelRedemptionValueIncrease": "25%"
+        },
+        "WelcomeBonus": {
+          "Points": "60,000",
+          "Value": "$1,260",
+          "Requirement": "Spend $4,000 in the first 3 months"
+        },
+        "Fees": {
+          "AnnualFee": "$95",
+          "ForeignTransactionFee": "None"
+        }
+      },
+      {
+        "CardName": "American Express Gold Card",
+        "Rewards": {
+          "Dining": "4x points",
+          "Supermarkets": "4x points",
+          "Flights": "3x points",
+          "OtherPurchases": "1x points"
+        },
+        "Features": {
+          "DiningCredit": "$120",
+          "HotelCredit": "$100"
+        },
+        "WelcomeBonus": {
+          "Points": "60,000",
+          "Requirement": "Spend $4,000 in 6 months"
+        },
+        "Fees": {
+          "AnnualFee": "$250",
+          "ForeignTransactionFee": "None"
+        }
+      },
+      {
+        "CardName": "Capital One Venture X Rewards Credit Card",
+        "Rewards": {
+          "HotelsRentalCars": "10x miles",
+          "Flights": "5x miles",
+          "OtherPurchases": "2x miles"
+        },
+        "Features": {
+          "AnnualTravelCredit": "$300",
+          "AnnualBonusMiles": "10,000",
+          "LoungeAccess": "Unlimited free visits to Capital One Lounges"
+        },
+        "WelcomeBonus": {
+          "Miles": "75,000",
+          "Requirement": "Spend $4,000 in 3 months"
+        },
+        "Fees": {
+          "AnnualFee": "$395",
+          "ForeignTransactionFee": "None"
+        }
+      },
+      {
+        "CardName": "Chase Freedom Flex",
+        "Rewards": {
+          "QuarterlyCategories": "5% cash back",
+          "Travel": "5%",
+          "DiningDrugstores": "3%",
+          "OtherPurchases": "1%"
+        },
+        "Features": {
+          "CellPhoneProtection": "Included",
+          "ExtendedWarranty": "Included",
+          "TripCancellationInsurance": "Included"
+        },
+        "WelcomeBonus": {
+          "CashBack": "$200",
+          "Requirement": "Spend $500 in the first 3 months"
+        },
+        "Fees": {
+          "AnnualFee": "None",
+          "ForeignTransactionFee": "Applies"
+        }
+      },
+      {
+        "CardName": "Blue Cash Preferred Card from American Express",
+        "Rewards": {
+          "Supermarkets": "6% cash back",
+          "StreamingSubscriptions": "6%",
+          "GasStationsTransit": "3%",
+          "OtherPurchases": "1%"
+        },
+        "Features": {
+          "IntroAPR": "0% for 12 months",
+          "APR": "18.99%-29.99%"
+        },
+        "WelcomeBonus": {
+          "StatementCredit": "$250",
+          "Requirement": "Spend $3,000 in the first 6 months"
+        },
+        "Fees": {
+          "AnnualFee": "$95",
+          "ForeignTransactionFee": "None"
+        }
+      },
+      {
+        "CardName": "Citi Premier Card",
+        "Rewards": {
+          "RestaurantsSupermarketsGasStations": "3x points",
+          "AirTravelHotels": "3x points",
+          "OtherPurchases": "1x points"
+        },
+        "Features": {},
+        "WelcomeBonus": {
+          "Points": "60,000",
+          "Value": "$960",
+          "Requirement": "Spend $4,000 in 3 months"
+        },
+        "Fees": {
+          "AnnualFee": "$95",
+          "ForeignTransactionFee": "None"
+        }
+      },
+      {
+        "CardName": "American Express Platinum Card",
+        "Rewards": {
+          "Flights": "5X points",
+          "PrepaidHotels": "5X points"
+        },
+        "Features": {
+          "AirlineIncidentalFeesCredit": "$200",
+          "UberCredits": "$200",
+          "SaksFifthAvenueCredit": "$100",
+          "DigitalEntertainmentCredit": "$240",
+          "EquinoxCredit": "$300",
+          "WalmartPlusCredit": "$155",
+          "CLEARMembership": "Reimbursed",
+          "GlobalEntryTSA": "Fee Credit"
+        },
+        "WelcomeBonus": {
+          "Points": "80,000",
+          "Requirement": "Spend $6,000 in 6 months"
+        },
+        "Fees": {
+          "AnnualFee": "$695",
+          "ForeignTransactionFee": "None"
+        }
+      },
+      {
+        "CardName": "Capital One Quicksilver Cash Rewards Credit Card",
+        "Rewards": {
+          "EveryPurchase": "1.5% cash back"
+        },
+        "Features": {
+          "CashBackRedemption": "Any amount, any time"
+        },
+        "WelcomeBonus": {
+          "CashBack": "$200",
+          "Requirement": "Spend $500 in 3 months"
+        },
+        "Fees": {
+          "AnnualFee": "None",
+          "ForeignTransactionFee": "None"
+        }
+      },
+      {
+        "CardName": "Chase Ink Business Cash Credit Card",
+        "Rewards": {
+          "OfficeSuppliesInternetCablePhone": "5% cash back",
+          "GasStationsRestaurants": "2% cash back",
+          "OtherPurchases": "1% cash back"
+        },
+        "Features": {
+          "CashBackLimit": "$25,000 per category annually"
+        },
+        "WelcomeBonus": {
+          "CashBack": "$900",
+          "Requirement": "Spend $6,000 in 3 months"
+        },
+        "Fees": {
+          "AnnualFee": "None",
+          "ForeignTransactionFee": "Applies"
+        }
+      },
+      {
+        "CardName": "Citi AAdvantage Platinum Select Mastercard",
+        "Rewards": {
+          "AmericanAirlines": "2 miles per $1",
+          "RestaurantsGasStations": "2 miles per $1",
+          "OtherPurchases": "1 mile per $1"
+        },
+        "Features": {
+          "CheckedBagFree": "First bag on domestic flights",
+          "PreferredBoarding": "Included",
+          "InflightDiscount": "25% on food and beverage"
+        },
+        "WelcomeBonus": {
+          "Miles": "50,000",
+          "Requirement": "Spend $2,500 in 3 months"
+        },
+        "Fees": {
+          "AnnualFee": "$99",
+          "ForeignTransactionFee": "None"
+        }
+      }
+    ]
+  }
+  
