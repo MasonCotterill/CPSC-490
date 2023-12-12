@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Papa from 'papaparse';
+import { TransactionsContext } from '../Context'; // Import the context
 
 const Profile = () => {
+  // Use the context to get the function to update transactions
+  const { updateTransactions } = useContext(TransactionsContext);
+
   const handleFileUpload = (event) => {
     const file = event.target.files[0];
     if (file && file.type === "text/csv") {
       Papa.parse(file, {
         complete: (result) => {
           console.log("Parsed CSV data: ", result.data);
-          // Process and distribute data here
+          // Call updateTransactions from context to update the transactions data across the app
+          updateTransactions(result.data);
         },
         header: true, // Set to false if your CSV doesn't have headers
         skipEmptyLines: true,

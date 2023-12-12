@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
+import { TransactionsContext } from '../Context';
 
 const Transactions = () => {
-  // Hard-coded sample transactions data with merchant names
-  const transactions = [
-    { date: '2023-12-01', category: 'Groceries', amount: 400, merchantName: 'Local Market' },
-    { date: '2023-12-02', category: 'Rent', amount: 1200, merchantName: 'City Apartments' },
-    { date: '2023-12-05', category: 'Utilities', amount: 300, merchantName: 'Utility Company' },
-    { date: '2023-12-15', category: 'Entertainment', amount: 150, merchantName: 'Cinema Town' }
-  ];
+  const { transactions } = useContext(TransactionsContext);
+
+  useEffect(() => {
+    // This is a good place to put any setup or operations that depend on transactions data
+    console.log(transactions);
+  }, [transactions]); // This will run whenever the transactions data changes
 
   return (
     <div className='flex flex-col items-center w-full p-4 bg-black'>
@@ -21,10 +21,10 @@ const Transactions = () => {
                 Date
               </th>
               <th className='px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-semibold text-white uppercase tracking-wider'>
-                Category
+                Merchant
               </th>
               <th className='px-5 py-3 border-b-2 border-gray-300 text-left text-xs font-semibold text-white uppercase tracking-wider'>
-                Merchant
+                Category
               </th>
               <th className='px-5 py-3 border-b-2 border-gray-300 text-right text-xs font-semibold text-white uppercase tracking-wider'>
                 Amount
@@ -35,16 +35,16 @@ const Transactions = () => {
             {transactions.map((transaction, index) => (
               <tr key={index}>
                 <td className='px-5 py-5 border-b border-gray-200 bg-black text-sm text-white'>
-                  {transaction.date}
+                  {transaction.Date}
                 </td>
                 <td className='px-5 py-5 border-b border-gray-200 bg-black text-sm text-white'>
-                  {transaction.category}
+                  {transaction.Merchant}
                 </td>
                 <td className='px-5 py-5 border-b border-gray-200 bg-black text-sm text-white'>
-                  {transaction.merchantName}
+                  {transaction.Category}
                 </td>
                 <td className='px-5 py-5 border-b border-gray-200 bg-black text-sm text-right text-white'>
-                  ${transaction.amount.toFixed(2)}
+                  ${transaction.Amount ? Number(transaction.Amount).toFixed(2) : '0.00'}
                 </td>
               </tr>
             ))}

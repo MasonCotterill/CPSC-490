@@ -7,23 +7,25 @@ import Budgets from './components/Budgets';
 import Transactions from './components/Transactions';
 import Recommendations from './components/Recommendations';
 import Profile from './components/Profile';
+import { TransactionsProvider } from './Context'; // Import the TransactionsProvider
 
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/budgets" element={<Budgets />} />
-        <Route path="/transactions" element={<Transactions />} />
-        <Route path="/recommendations" element={<Recommendations />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/" element={<Navigate replace to="/dashboard" />} />
-        {/* Add other routes here */}
-      </Routes>
+      <TransactionsProvider> {/* Wrap your components with TransactionsProvider */}
+        <Navbar />
+        <Routes>
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/budgets" element={<Budgets />} />
+          <Route path="/transactions" element={<Transactions />} />
+          <Route path="/recommendations" element={<Recommendations />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/" element={<Navigate replace to="/dashboard" />} />
+          {/* Add other routes here */}
+        </Routes>
+      </TransactionsProvider>
     </Router>
   );
 }
-
 
 export default App;
