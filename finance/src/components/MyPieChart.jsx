@@ -7,6 +7,7 @@ const data = [
   { name: 'Rent', value: 1200 },
   { name: 'Utilities', value: 300 },
   { name: 'Entertainment', value: 150 },
+  { name: 'Streaming', value: 125 }
   
 ];
 

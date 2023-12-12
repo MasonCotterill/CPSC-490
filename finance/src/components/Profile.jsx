@@ -37,8 +37,6 @@ const Profile = () => {
           <input type="file" id="csvUpload" accept=".csv" onChange={handleFileUpload} className='mt-2' />
         </div>
       </div>
-
-      {/* Additional profile components here if needed */}
     </div>
   );
 };

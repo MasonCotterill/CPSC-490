@@ -6,7 +6,7 @@ const BudgetHistoryChart = () => {
     { month: 'Jan', income: 4000, expenses: 3000 },
     { month: 'Feb', income: 4500, expenses: 3500 },
     { month: 'Mar', income: 5000, expenses: 4500 },
-    // Additional data points can be added here
+    
   ];
 
   return (

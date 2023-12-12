@@ -37,7 +37,6 @@ const ExpenseTable = () => {
               </td>
             </tr>
           ))}
-          {/* Total row with solid gray background */}
           <tr>
             <td className='px-5 py-5 border-t border-gray-600 text-white font-bold'>Total</td>
             <td className='px-5 py-5 border-t border-gray-600 text-right text-white font-bold'>
